@@ -20,11 +20,13 @@ const HeroSection = () => {
             molestias, natus dolor cumque facilis necessitatibus nulla itaque
             aperiam cum tempore aut dolorem ipsum?
           </p>
-          <Link href={"/courses"}>
-            <Button borderRadius="1.75rem" className="bg-black">
-              Explore Courses
-            </Button>
-          </Link>
+          <div className="mt-12">
+            <Link href={"/courses"}>
+              <Button borderRadius="1.75rem" className="bg-black">
+                Explore Courses
+              </Button>
+            </Link>
+          </div>
         </div>
       </div>
     </>

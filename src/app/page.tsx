@@ -1,5 +1,6 @@
 import FeaturedSection from "@/components/FeaturedSection";
 import HeroSection from "@/components/HeroSection";
+import WhyMe from "@/components/WhyMe";
 
 export default function Home() {
   return (
@@ -7,6 +8,8 @@ export default function Home() {
       <div>
         <HeroSection />
         <FeaturedSection />
+        <WhyMe />
+        
       </div>
     </>
   );

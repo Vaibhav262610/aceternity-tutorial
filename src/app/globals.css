@@ -31,3 +31,7 @@ body {
     text-wrap: balance;
   }
 }
+
+.box:hover {
+  border: 1px solid white;
+}
